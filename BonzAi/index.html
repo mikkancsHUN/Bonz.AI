@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BONZ.AI</title>
+</head>
+<body>
+        <!-- HEADER -->
+        <header id="header" class="header">
+                <a class="header__img-link" href="index.html">
+                <img class="header__img" src="assets/logo/bonz.ai-logo-color-landscape.png" alt="bonz.ai logo">
+                </a>
+            <nav id="headerList" class="header__nav">
+                <section class="header__signin-mobile">
+                    <a class="header__signin-btn" href="#">Signup</a>
+                    <a class="header__signin-btn" href="#">Login</a>
+                </section>
+                <ul class="header__list">
+                    <li><a href="#header" class="header__list-item header__list-item--basic">Home</a></li>
+                    <li><a href="about.html" class="header__list-item header__list-item--basic">About</a></li>
+                    <li><a href="#footer" class="header__list-item header__list-item--basic">Contact</a></li>
+                    <li><a href="booking.html" class="header__list-item header__list-item--active">Book now</a></li>
+                </ul>
+            </nav>
+            <!-- SIGN IN -->
+            <section class="header__signin">
+                <a class="header__signin-btn" href="#">Signup</a>
+                <a class="header__signin-btn" href="#">Login</a>
+            </section>
+            <img id="openHamburger" src="assets/icons/icons8-hamburger-menu.svg" alt="open hamburger" onclick="toggleSidebar()">
+        </header>
+        <!-- MAIN -->
+        <main class="main">
+            <!-- HERO -->
+            <section class="main__hero">
+                <img src="assets/logo/bonz.ai-logo-white-portrait.png" alt="hero picture">
+            </section>
+            <h1>Welcome to Bonz.AI</h1>
+            <section class="welcome__section">
+                <img src="assets/photos/01-night.jpg" alt="room picture">
+                <article>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum possimus magnam nemo. Quaerat aliquid illo, fugiat nesciunt placeat animi aliquam hic repudiandae! Ex debitis tenetur architecto aspernatur odit eligendi repellat a pariatur rerum molestiae totam voluptatibus reiciendis, incidunt perferendis autem est dolorem mollitia unde itaque id, quam et esse.</p>
+                </article>  
+            </section>
+            <article class="gallery">
+                <h2>Gallery</h2>
+            <section class="gallery__grid">
+                <img src="assets/photos/01-day.jpg" alt="room picture" class="gallery__grid-item">
+                <img src="assets/photos/02-day.jpg" alt="room picture" class="gallery__grid-item">
+                <img src="assets/photos/03-day.jpg" alt="room picture" class="gallery__grid-item">
+                <img src="assets/photos/04-day.jpg" alt="room picture" class="gallery__grid-item">
+                <img src="assets/photos/05-day.jpg" alt="room picture" class="gallery__grid-item">
+                <img src="assets/photos/06-day.jpg" alt="room picture" class="gallery__grid-item">   
+            </section>
+            <a href="booking.html" class="gallery__grid-btn">Book now</a>
+            </article>
+        </main>
+        <!-- FOOTER -->
+        <footer id="footer" class="footer">
+            <a class="footer__img-link" href="index.html">
+                <img class="footer__img" src="assets/logo/bonz.ai-logo-color-landscape.png" alt="bonz.ai logo">
+            </a>
+            <section>
+                <p>email: bonz.ai@gmail.com</p>
+                <p>tel.: 010-110-010</p>
+            </section>
+            <section>
+                <a href="#"><img class="footer__icon" src="assets/icons/icons8-facebook.svg" alt="facebook logo"></a>
+                <a href="#"><img class="footer__icon" src="assets/icons/icons8-instagram.svg" alt="instagram logo"></a>
+                <a href="#"><img class="footer__icon" src="assets/icons/icons8-twitter.svg" alt="twitter logo"></a>
+            </section>
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>
