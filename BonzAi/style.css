@@ -277,7 +277,7 @@ p {
     margin-bottom: 20px;
 }
 
-.about__section-item {
+.about-main__section-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,11 +286,11 @@ p {
     height: 28em;
 }
 
-.about__section-item img {
+.about-main__section-item img {
     width: 30em;
 }
 
-.about__section-item article {
+.about-main__section-item article {
     display: flex;
     flex-direction: column;
     justify-content: center;
